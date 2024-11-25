@@ -6,7 +6,7 @@ graph TD;
     B --> C[Start Elasticsearch by running the elasticsearch executable from the bin directory]
     C --> D[Install Logstash]
     D --> E[Download and install Logstash from the official website]
-    E --> F[Create a configuration file (logstash.conf)]
+    E --> F[Create a configuration file logstash.conf]
     F --> G[Define input, filter, and output plugins]
     G --> H[Start Logstash with the configuration file]
     H --> I[Install Kibana]
